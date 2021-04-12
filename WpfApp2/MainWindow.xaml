@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Изменить надпись&#xD;&#xA;" HorizontalAlignment="Left" Margin="586,40,0,0" VerticalAlignment="Top" Width="119" Height="56" Click="Button_Click"/>
+        <Button Content="Сдвинуть рисунок вправо" HorizontalAlignment="Left" Margin="586,118,0,0" VerticalAlignment="Top" Width="174" Click="Button_Click_1" Height="53"/>
+        <Label x:Name="Label" Content="ФЛАГ РФ" HorizontalAlignment="Left" Margin="163,62,0,0" VerticalAlignment="Top" Width="81"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="227,252,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+
     </Grid>
 </Window>
